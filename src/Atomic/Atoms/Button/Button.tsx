@@ -1,4 +1,5 @@
 import React, {MouseEventHandler} from 'react';
+import styles from './Button.module.css';
 
 interface buttonProps {
     title:String,
@@ -9,5 +10,6 @@ interface buttonProps {
 
 export function Button({title, bgColor, onClick}:buttonProps){
     console.log(bgColor);
-    return <button onClick={onClick}>{title}</button>
+    return <button onClick={onClick} className={styles.button}>{title}</button>
 }
+
