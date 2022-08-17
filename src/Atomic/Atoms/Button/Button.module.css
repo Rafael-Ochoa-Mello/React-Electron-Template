@@ -1,3 +1,15 @@
 .button {
+    background-color: yellow;
+}
+
+.buttonRed {
     background-color: red;
+}
+
+.buttonBlue {
+    background-color: blue;
+}
+
+.buttonGreen {
+    background-color: green;
 }
