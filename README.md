@@ -1,6 +1,6 @@
 <h1 align="center">React-Electron-Template</h1>
 <p align="center">
-<image align="center" width="299px" height="200px" src="./public/LogoTemplate.png">
+<image align="center" width="299px" height="290px" src="./public/LogoTemplate.png">
 </p>
 <p align="center"> Rafael Ochôa Mello - rafaelochoamello@gmail.com </p>
 
