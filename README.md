@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+<h1 align="center">React-Electron-Template</h1>
+<p align="center">
+<image align="center" src="./public/assets/readme/DwarfPost.png">
+</p>
+<p align="center"> Rafael Ochôa Mello - rafaelochoamello@gmail.com </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#sobre">Sobre</a> •
+ <a href="#objetivo">Objetivo</a> 
+ <a href="#branch">Branchs</a> 
+</p>
 
-## Available Scripts
+<p id="sobre">
+  <h2> :memo: Sobre </h2>
+  <p>Este repositório nasce com o objetivo de realizar uma aglutinação entre <strong> React, Typescript</strong> e também o <strong>Electron</strong>, 
+    de forma a simplificar a necessidade de configurar os respectivos ambientes para que funcionem em harmonia.
+  </p>
+  <p>
+     Também se baseia no princípio de 'Atomic Design' naquilo que se refere a organização do projeto e seus componentes.
+  </p>
+   <p>
+      Para evitar a estilização massiva dos componentes a partir de objetos estilizados no próprio, fora adaptado 
+      aqui o conceito do css modularizado, digo adaptado, pois, mesmo que o React o aceite naturalmente, o Typescript 
+      não o faz. Fora necessário um arquivo de configuração para que os arquivos css modularizados fossem aceitos. </br>
+      Caso exista curiosidade em realizar uma análise do arquivo em si: src -> Globals.d.ts
+  </p>
+  
+</p>
 
-In the project directory, you can run:
+<p id="objetivo">
+ <h2> :bow_and_arrow: Objetivo </h2>
+  <p>
+    Entre os objetivos deste repositório, há como principal o acesso rápido a um projeto em ambiente React + TS + Electron já
+    configurado com o que considero o essencial. 
+  </p>
+  <p>
+    Outras configurações ficam livres a serem ajustadas pelo desenvolvedor, toda e qualquer implementação adicional que 
+    eu considere 'não essencial', estará localizada em sua respectiva branch.
+  </p>
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p id="branch">
+ <h2> :tent: Branchs </h2>
+  <ul>
+    <li><strong>main</strong> - Contém o essencial para utilização. Note que é necessário rodar o React e o Electron em terminais separados.<li/>
+    <li><strong>Foreman</strong> - Contém a implementação de um gerenciador de run utilizando o Foreman, de forma a ter apenas um comando para inicializar React e electron.<li/>
+    <li><strong>Forge</strong> - Contém a implementação de um forge do Electron, para buildar o mesmo em um simples programa executável.<li/>
+  </ul>
+</p>
