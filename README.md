@@ -43,8 +43,8 @@
 <p id="branch">
  <h2> :tent: Branchs </h2>
   <ul>
-    <li><strong>main</strong>Contém o essencial para utilização. Note que é necessário rodar o React e o Electron em terminais separados.</li>
-    <li><strong>Foreman</strong>Contém a implementação de um gerenciador de run utilizando o Foreman, de forma a ter apenas um comando para inicializar React e electron.</li>
-    <li><strong>Forge</strong>Contém a implementação de um forge do Electron, para buildar o mesmo em um simples programa executável.</li>
+    <li><strong>main</strong> - Contém o essencial para utilização. Note que é necessário rodar o React e o Electron em terminais separados.</li>
+    <li><strong>Foreman</strong> - Contém a implementação de um gerenciador de run utilizando o Foreman, de forma a ter apenas um comando para inicializar React e electron.</li>
+    <li><strong>Forge</strong> - Contém a implementação de um forge do Electron, para buildar o mesmo em um simples programa executável.</li>
   </ul>
 </p>
