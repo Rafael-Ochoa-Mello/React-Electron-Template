@@ -1,6 +1,6 @@
 <h1 align="center">React-Electron-Template</h1>
 <p align="center">
-<image align="center" src="./public/assets/readme/DwarfPost.png">
+<image align="center" src="./public/LogoTemplate.png">
 </p>
 <p align="center"> Rafael Ochôa Mello - rafaelochoamello@gmail.com </p>
 
@@ -21,10 +21,9 @@
    <p>
       Para evitar a estilização massiva dos componentes a partir de objetos estilizados no próprio, fora adaptado 
       aqui o conceito do css modularizado, digo adaptado, pois, mesmo que o React o aceite naturalmente, o Typescript 
-      não o faz. Fora necessário um arquivo de configuração para que os arquivos css modularizados fossem aceitos. </br>
-      Caso exista curiosidade em realizar uma análise do arquivo em si: src -> Globals.d.ts
+      não o faz. Fora necessário um arquivo de configuração para que os arquivos css modularizados fossem aceitos. </br>      
   </p>
-  
+   <p>Caso exista curiosidade em realizar uma análise do arquivo em si: <em>src -> Globals.d.ts</em></p>
 </p>
 
 <p id="objetivo">
