@@ -50,7 +50,7 @@
 </p>
 
 <p id="comandos">
- <h2> :tent: Comandos </h2>
+ <h2> :computer: Comandos </h2>
   <!-- Aqui deve vir uma lista de comandos, tais como : Rodar o React, rodar o electron, rodar o Foreman (na sua branch) e rodar o Forge (na sua branch) -->
   <ul>
     <li><strong>main</strong> - Rodar o React :: npm start  | Rodar o electron :: npm run electron  .</li>
