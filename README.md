@@ -44,7 +44,8 @@
  <h2> :tent: Branchs </h2>
   <ul>
     <li><strong>main</strong> - Contém o essencial para utilização. Note que é necessário rodar o React e o Electron em terminais separados.</li>
-    <li><strong>Foreman</strong> - Contém a implementação de um gerenciador de run utilizando o Foreman, de forma a ter apenas um comando para inicializar React e electron.</li>
+    <li><strong>WaitOn</strong> - Contém a implementação de um gerenciador de run utilizando o Wait-On e o cross-env, de forma a ter apenas um comando para inicializar React e electron.
+    Além de impedir que por padrão o RUN do electron abra uma aba no navegador.</li>
     <li><strong>Forge</strong> - Contém a implementação de um forge do Electron, para buildar o mesmo em um simples programa executável.</li>
   </ul>
 </p>
@@ -54,7 +55,7 @@
   <!-- Aqui deve vir uma lista de comandos, tais como : Rodar o React, rodar o electron, rodar o Foreman (na sua branch) e rodar o Forge (na sua branch) -->
   <ul>
     <li><strong>main</strong> - Rodar o React :: npm start  | Rodar o electron :: npm run electron  .</li>
-    <li><strong>Foreman</strong> - Ainda não há comandos definidos</li>
+    <li><strong>WaitOn</strong> - Rodar ambos :: npm run dev </li>
     <li><strong>Forge</strong> - Ainda não há comandos definidos.</li>
   </ul>
 </p>
