@@ -1,5 +1,7 @@
 {
   "name": "react-electron-template",
+  "description": "Basic react with ts and electron",
+  "author": {"name":"Rafael Ochoa Mello", "email": "rafaelochoamello@gmail.com"},
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +11,7 @@
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.49",
     "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
+    "@types/react-dom": "^18.0.6",    
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -22,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron": "electron ."
+    "electron": "electron .",
+    "electron-pack": "electron-builder -c.extraMetadata.main=build/electron-starter.js"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "electron": "^20.0.2"
+    "electron": "^20.0.2",
+    "electron-builder": "^23.3.3"
   }
 }
